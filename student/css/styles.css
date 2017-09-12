@@ -8,18 +8,62 @@
 /* BASIC SELECTORS */
 
 /* Tag selectors */
+nav{
+  background-color: brown;
+}
 
+main{
+  margin-top: 50px;
+  padding: 20px;
+}
 
+p{
+  color: white;
+  font-size: 12px;
+}
+
+article{
+  background-color: green;
+  font-size: 28px;
+}
+
+blockquote{
+  background-color: red;
+}
 /* Class selectors */
 
+.inline-text{
+  font-weight: bold;
+  color: blue;
+}
 
+.post{
+
+}
+
+.highlight{
+  font-size: 30px;
+  font-style: italic;
+}
 /* ID selectors */
 
+#article-list{
+  padding: 30px;
+}
+
+#main-article{
+  padding: 30px;
+}
 
 
 /* ADVANCED SELECTORS */
 
 /* Combining selectors */
-
+span.inline-text{
+  font-size: 40px;
+}
+article > h1{
+  border: 5px solid blue;
+}
 
 /* Pseudo-selectors */
